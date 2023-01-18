@@ -7,58 +7,66 @@ import org.openqa.selenium.By;
 public class ShoppingCartPage extends PageBase {
     static String linkText="";
     static String language="";
+    private static String itemName="";
+    private static int itemQty;
+    private static double itemTotal;
     private static String[] itemDetails=new String[5];
     private static FunctionHelper functionHelper= new FunctionHelper();
-    private static By itemlink=By.xpath("//*[@class='a-size-base-plus a-color-base sc-product-title sc-grid-item-product-title']");
+    private static By itemLink =By.xpath("//*[@class='a-size-base-plus a-color-base sc-product-title sc-grid-item-product-title']");
     private static By  qtyDropdownPrompt=By.xpath("//*[@class='a-dropdown-prompt']");
-    private static By  subTotalAmount=By.id("sc-subtotal-amount-buybox");
-
+    private static By  subTtlAmntTLabelUnderItm=By.id("sc-subtotal-amount-activecart");
+    private static By  deleteCTA=By.xpath(" //*[@value='Delete']");
+    private static By  subTotalLabel=By.id("sc-subtotal-amount-buybox");
 
     public static boolean isProductListPageDisplayed() {
- FunctionHelper.waiTillVisible(itemlink,5);
-        return getDriver().findElement(itemlink).isDisplayed();
-    }
-
-
-    public static boolean isCategorynotExist() throws Exception {
-        return true;
+ FunctionHelper.waiTillVisible(itemLink,5);
+        return getDriver().findElement(itemLink).isDisplayed();
     }
 
     public static boolean isItmNameMatchAsItemDetailsPage() throws Exception {
-        if (ProductListPage.getItemname().equalsIgnoreCase(getItemname())) {
+        if (ProductListPage.getItemName().equalsIgnoreCase(getItemName())) {
             return true;
         }
         return false;
     }
         public static boolean isItmQtyMatchAsItemDetailsPage() throws Exception {
-        System.out.println("Item Details QTY>>>> "+ItemdetailPage.getItemQty());
-            System.out.println("Shopping QTY>>>> "+getItemQty());
-            return ItemdetailPage.getItemQty().equalsIgnoreCase(getItemQty());
+        System.out.println("Item Details QTY>>>> "+ItemdetailPage.getItemQtyDisplay());
+            System.out.println("ShoppingCart QTY>>>> "+getItemQty());
+            return ItemdetailPage.getItemQtyDisplay()==getItemQty();
     }
     public static void setItemDetails() throws Exception {
-        System.out.println("Shopping Cart-Item Name>>>>>>>>>>>>"+getDriver().findElement(itemlink).getText());
-        itemDetails[0]=getDriver().findElement(itemlink).getText();
-        itemDetails[1]=getDriver().findElement(qtyDropdownPrompt).getText();
-        itemDetails[2]=getDriver().findElement(subTotalAmount).getText();
+        System.out.println("Shopping Cart-Item Name>>>>>>>>>>>>"+getDriver().findElement(itemLink).getText());
+        itemName=getDriver().findElement(itemLink).getText();
+        itemQty=Integer.parseInt(getDriver().findElement(qtyDropdownPrompt).getText());
+        System.out.println("Item Total at SetItemDetails:>>>"+getDriver().findElement(subTotalLabel).getText().substring(2));
+        itemTotal=Double.parseDouble(getDriver().findElement(subTotalLabel).getText().replaceAll("\\s","").substring(1));
     }
-    public static String getItemname() throws Exception {
-        return itemDetails[0];
+    public static String getItemName() throws Exception {
+        return itemName;
     }
 
-    public static String getItemQty() throws Exception {
-        return itemDetails[1];
+    public static int getItemQty() throws Exception {
+        return itemQty;
     }
-        public static String getItemSubTotal() throws Exception {
-            return itemDetails[2];
+        public static double getItemSubTotal() throws Exception {
+            return itemTotal;
     }
     public static boolean isItmTotalMatchAsItemDetailsPage() throws Exception {
-        if (1==0){}
-        double itemDetailsTotal=Integer.parseInt(ItemdetailPage.getItemQty())*Integer.parseInt(ItemdetailPage.getPriceDetails("Paperback").substring(1));
-        double CartDetailsTotal=Integer.parseInt(getItemSubTotal());
-
+        double itemDetailsTotal=ItemdetailPage.getItemPrice()*ItemdetailPage.getItemQtyDisplay();
+        double CartDetailsTotal=getItemSubTotal();
+        System.out.println("#Item Detailsotal: "+itemDetailsTotal+",  #CartDetailsTotal: "+CartDetailsTotal);
         return itemDetailsTotal==CartDetailsTotal;
     }
-
+    public static void deleteItemFromCart() throws Exception {
+        FunctionHelper.waiTillClickable(deleteCTA,5);
+        functionHelper.doubleClick(getDriver().findElement(deleteCTA));
+    }
+    public static boolean isItmDeleted() throws Exception {
+        staticWait(5);
+    String subTotalLabelText=getDriver().findElement(subTtlAmntTLabelUnderItm).getText().replaceAll("\\s","");
+    System.out.println("Sub total labelText after clear the cart: "+subTotalLabelText);
+        return subTotalLabelText.equalsIgnoreCase("$0.00");
+    }
 
 
 }

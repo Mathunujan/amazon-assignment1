@@ -9,12 +9,11 @@ public class ProductListPage extends PageBase {
     static String linkText="";
     static String language="";
     private static String[] itemDetails;
-    private static String itemDetails2="";
-    private static boolean CategorynotExist;
+    private static String ItemPrice="";
+
     private static FunctionHelper functionHelper= new FunctionHelper();
     private static By itemlink=By.xpath("(//*[@class='a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'])[2]");
     private static By itemSection=By.xpath("//*[@data-index='2']");
-    private static By itemPrice=By.xpath("(//*[@class='a-price-whole'])[4]");
     private static By languaeFilter=By.xpath("(//span[text()='English'])[1]");
     private static By ratingFilter=By.xpath("//*[@aria-label='4 Stars & Up']");
     private static By checkedboxCheck=By.xpath("//li[@aria-label='English']//input[@checked]");
@@ -25,7 +24,7 @@ public class ProductListPage extends PageBase {
  FunctionHelper.waiTillVisible(searchresultsText,5);
         return getDriver().findElement(searchresultsText).isDisplayed();
     }
-    public static boolean ischeckBoxSelected() {
+    public static boolean isCheckBoxSelected() {
         try {
             getDriver().findElement(checkedboxCheck).isDisplayed();
         }catch (NoSuchElementException e){
@@ -57,27 +56,22 @@ public class ProductListPage extends PageBase {
         itemDetails[0]=getDriver().findElement(itemlink).getText();
 
             System.out.println("Product List Item Name1:.>>>>>>>"+itemDetails[1]);
-        System.out.println("Product List Item Price:.>>>>>>>"+itemDetails[5]+"."+itemDetails[6]);
+        System.out.println("Product List 5 and 6 Index:.>>>>>>>"+itemDetails[5]+"."+itemDetails[6]);
 
 
 
     }
-    public static String getPriceDetails(String priceCat) throws Exception {
+    public static String getPrice(String priceCat) throws Exception {
            for (int i = 0; i<itemDetails.length-1; i++){
                 if (itemDetails[i].equalsIgnoreCase(priceCat)){
-                    System.out.println("Product List Item Price:>>>>>>>"+itemDetails[i+1]+"."+itemDetails[i+2]);
-                    return  itemDetails[i+1]+"."+itemDetails[i+2];
-                }else {
-                    CategorynotExist=true;
+                    System.out.println("Product List Item Price:>>>>>>>"+itemDetails[i+1].substring(1)+"."+itemDetails[i+2]);
+                    ItemPrice=itemDetails[i+1].substring(1)+"."+itemDetails[i+2];
+                    return  ItemPrice;
                 }
             }
         return "Category '"+priceCat+"' is not matched!";
     }
-    public static boolean isCategorynotExist() throws Exception {
-        return CategorynotExist;
-    }
-
-    public static String getItemname() throws Exception {
+    public static String getItemName() throws Exception {
         return itemDetails[0];
     }
 

@@ -1,7 +1,6 @@
 package steps;
 
 
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import pages.Dashboard;
 import pages.ItemdetailPage;
@@ -12,19 +11,18 @@ import java.util.ArrayList;
 public class ItemDetailsPageSteps {
     //ProductListPage productListPage=new ProductListPage();
    static ArrayList<String> itemDetails = new ArrayList<String>();
-    public void ViewItemDetailsSteps() throws Exception {
+    public static void ViewItemDetailsSteps() throws Exception {
         SoftAssert softAssert = new SoftAssert();
-        //Assert.assertTrue(Dashboard.isDashboardPageDisplayed(),"That title is not display here ") ;
-//itemDetails=ProductListPage
+        //Assert.assertTrue(Dashboard.isItemDetailsPageDisplayed(),"") ;
         Dashboard.staticWait(5);
         ProductListPage.navigateItemDetails("2");
-        softAssert.assertTrue(ItemdetailPage.isPricematchAsProdList(),"That Item details not matched ") ;
-        softAssert.assertTrue(ItemdetailPage.isItmNameMatchAsProdList(),"That Item name not matched ") ;
-        //Assert.assertTrue(ItemdetailPage.isItmNameMatchAsProdList(),"That Item name not matched ") ;
+        softAssert.assertTrue(ItemdetailPage.isPriceMatchAsProdList(),"The price not matched ") ;
+        softAssert.assertTrue(ItemdetailPage.isItmNameMatchAsProdList(),"The Item name not matched ") ;
         ItemdetailPage.selectQTY("2");
+        ItemdetailPage.setItemDetails();
+        softAssert.assertTrue(ItemdetailPage.isQtySelect(),"The quantity is not selected") ;
         ItemdetailPage.addToCart();
         ItemdetailPage.goToCart();
-        //Dashboard.PrintSomething();
 
         softAssert.assertAll();
 
