@@ -8,10 +8,10 @@ public class ProductListPageSteps {
     public static void FilterStep() throws Exception {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(ProductListPage.isProductListPageDisplayed(),"The page is not display here ") ;
-        ProductListPage.selectFilterByRating("");
+        ProductListPage.selectFilterByRating("4 Stars & Up");
         ProductListPage.selectFilterByLang("English");
         softAssert.assertTrue(ProductListPage.isCheckBoxSelected(),"Language not selected");
-        ProductListPage.setItemDetails();
+        ProductListPage.setItemDetails("2");
         softAssert.assertAll();
     }
 

@@ -2960,3 +2960,318 @@
 2023-01-18 15:56:08 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
 2023-01-18 15:56:09 INFO  TestBase:51 - Closing Browser
 2023-01-18 15:56:12 INFO  TestBase:53 - Browser Closed
+2023-01-18 16:19:59 INFO  TestBase:24 - Initiate Browser
+2023-01-18 16:20:07 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 16:20:07 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 16:20:07 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 16:20:07 INFO  TestBase:31 - Browser Initiated
+2023-01-18 16:20:07 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 16:20:21 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:20:21 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 16:20:26 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:20:26 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 16:20:36 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:20:36 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 16:20:47 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:20:47 INFO  TestBase:51 - Closing Browser
+2023-01-18 16:20:51 INFO  TestBase:53 - Browser Closed
+2023-01-18 16:28:22 INFO  TestBase:24 - Initiate Browser
+2023-01-18 16:28:30 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 16:28:30 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 16:28:30 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 16:28:30 INFO  TestBase:31 - Browser Initiated
+2023-01-18 16:28:30 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 16:28:54 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@63a65a25] output={null}]
+2023-01-18 16:28:54 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 16:29:10 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@63a65a25] output={null}]
+2023-01-18 16:29:10 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 16:29:20 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@63a65a25] output={null}]
+2023-01-18 16:29:20 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 16:29:30 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@63a65a25] output={null}]
+2023-01-18 16:29:31 INFO  TestBase:51 - Closing Browser
+2023-01-18 16:29:34 INFO  TestBase:53 - Browser Closed
+2023-01-18 16:54:26 INFO  TestBase:24 - Initiate Browser
+2023-01-18 16:54:33 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 16:54:33 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 16:54:33 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 16:54:34 INFO  TestBase:31 - Browser Initiated
+2023-01-18 16:54:34 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 16:54:48 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:54:48 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 16:55:06 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:55:06 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 16:55:06 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:55:06 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 16:55:11 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 16:55:12 INFO  TestBase:51 - Closing Browser
+2023-01-18 16:55:15 INFO  TestBase:53 - Browser Closed
+2023-01-18 17:32:44 INFO  TestBase:24 - Initiate Browser
+2023-01-18 17:32:51 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 17:32:51 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 17:32:51 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 17:32:52 INFO  TestBase:31 - Browser Initiated
+2023-01-18 17:32:52 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 17:33:05 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:33:05 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 17:33:20 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:33:20 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 17:33:21 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:33:21 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 17:33:26 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:33:27 INFO  TestBase:51 - Closing Browser
+2023-01-18 17:33:30 INFO  TestBase:53 - Browser Closed
+2023-01-18 17:47:19 INFO  TestBase:24 - Initiate Browser
+2023-01-18 17:47:25 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 17:47:25 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 17:47:25 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 17:47:25 INFO  TestBase:31 - Browser Initiated
+2023-01-18 17:47:25 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 17:47:27 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 17:47:33 INFO  TestBase:24 - Initiate Browser
+2023-01-18 17:47:39 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 17:47:39 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 17:47:39 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 17:47:39 INFO  TestBase:31 - Browser Initiated
+2023-01-18 17:47:39 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 17:47:50 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:47:50 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 17:48:06 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:48:06 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 17:48:06 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:48:06 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 17:48:11 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 17:48:12 INFO  TestBase:51 - Closing Browser
+2023-01-18 17:48:16 INFO  TestBase:53 - Browser Closed
+2023-01-18 18:04:38 INFO  TestBase:24 - Initiate Browser
+2023-01-18 18:04:47 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 18:04:47 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 18:04:47 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 18:04:47 INFO  TestBase:31 - Browser Initiated
+2023-01-18 18:04:47 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 18:04:58 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 18:04:58 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 18:05:04 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 18:05:04 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 18:05:14 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 18:05:14 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 18:05:24 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 18:05:25 INFO  TestBase:51 - Closing Browser
+2023-01-18 18:05:28 INFO  TestBase:53 - Browser Closed
+2023-01-18 18:07:24 INFO  TestBase:24 - Initiate Browser
+2023-01-18 18:07:31 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 18:07:31 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 18:07:31 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 18:07:31 INFO  TestBase:31 - Browser Initiated
+2023-01-18 18:07:31 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 18:07:53 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:07:53 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 18:07:59 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:07:59 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 18:08:09 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:08:09 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 18:08:19 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:08:20 INFO  TestBase:51 - Closing Browser
+2023-01-18 18:08:23 INFO  TestBase:53 - Browser Closed
+2023-01-18 18:09:36 INFO  TestBase:24 - Initiate Browser
+2023-01-18 18:09:43 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 18:09:43 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 18:09:43 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 18:09:43 INFO  TestBase:31 - Browser Initiated
+2023-01-18 18:09:43 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 18:09:56 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:09:56 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 18:10:14 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:10:14 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 18:10:14 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:10:14 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 18:10:20 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@318ba8c8] output={null}]
+2023-01-18 18:10:20 INFO  TestBase:51 - Closing Browser
+2023-01-18 18:10:24 INFO  TestBase:53 - Browser Closed
+2023-01-18 21:45:43 INFO  TestBase:24 - Initiate Browser
+2023-01-18 21:45:50 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 21:45:50 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 21:45:50 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 21:45:50 INFO  TestBase:31 - Browser Initiated
+2023-01-18 21:45:50 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 21:45:58 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:45:58 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 21:46:03 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:46:03 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 21:46:13 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:46:13 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 21:46:24 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:46:25 INFO  TestBase:51 - Closing Browser
+2023-01-18 21:46:28 INFO  TestBase:53 - Browser Closed
+2023-01-18 21:47:24 INFO  TestBase:24 - Initiate Browser
+2023-01-18 21:47:30 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 21:47:30 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 21:47:30 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 21:47:30 INFO  TestBase:31 - Browser Initiated
+2023-01-18 21:47:30 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 21:47:41 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:47:41 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 21:47:51 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:47:51 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 21:48:01 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:48:01 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 21:48:12 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 21:48:12 INFO  TestBase:51 - Closing Browser
+2023-01-18 21:48:16 INFO  TestBase:53 - Browser Closed
+2023-01-18 21:51:54 INFO  TestBase:24 - Initiate Browser
+2023-01-18 21:52:00 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 21:52:00 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 21:52:00 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 21:52:00 INFO  TestBase:31 - Browser Initiated
+2023-01-18 21:52:00 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 21:52:11 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@6dbb137d] output={null}]
+2023-01-18 21:52:11 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 21:52:21 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@6dbb137d] output={null}]
+2023-01-18 21:52:21 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 21:52:31 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@6dbb137d] output={null}]
+2023-01-18 21:52:31 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 21:52:42 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@6dbb137d] output={null}]
+2023-01-18 21:52:42 INFO  TestBase:51 - Closing Browser
+2023-01-18 21:52:46 INFO  TestBase:53 - Browser Closed
+2023-01-18 22:07:50 INFO  TestBase:24 - Initiate Browser
+2023-01-18 22:07:58 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 22:07:58 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 22:07:58 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 22:07:58 INFO  TestBase:31 - Browser Initiated
+2023-01-18 22:07:58 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 22:08:09 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:08:09 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 22:08:19 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:08:19 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 22:08:30 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:08:30 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 22:08:40 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:08:41 INFO  TestBase:51 - Closing Browser
+2023-01-18 22:08:44 INFO  TestBase:53 - Browser Closed
+2023-01-18 22:20:39 INFO  TestBase:24 - Initiate Browser
+2023-01-18 22:20:46 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 22:20:46 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 22:20:46 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 22:20:46 INFO  TestBase:31 - Browser Initiated
+2023-01-18 22:20:46 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 22:20:57 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:20:57 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 22:21:07 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:21:07 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 22:21:18 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:21:18 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 22:21:28 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:21:29 INFO  TestBase:51 - Closing Browser
+2023-01-18 22:21:32 INFO  TestBase:53 - Browser Closed
+2023-01-18 22:23:39 INFO  TestBase:24 - Initiate Browser
+2023-01-18 22:23:45 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 22:23:45 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 22:23:45 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 22:23:45 INFO  TestBase:31 - Browser Initiated
+2023-01-18 22:23:45 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 22:23:57 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:23:57 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 22:24:07 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:24:07 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 22:24:18 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:24:18 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 22:24:28 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:24:29 INFO  TestBase:51 - Closing Browser
+2023-01-18 22:24:32 INFO  TestBase:53 - Browser Closed
+2023-01-18 22:37:23 INFO  TestBase:24 - Initiate Browser
+2023-01-18 22:37:29 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 22:37:29 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 22:37:29 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 22:37:29 INFO  TestBase:31 - Browser Initiated
+2023-01-18 22:37:29 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 22:37:41 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:37:41 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 22:37:51 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:37:51 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 22:38:01 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:38:01 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 22:38:12 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:38:12 INFO  TestBase:51 - Closing Browser
+2023-01-18 22:38:16 INFO  TestBase:53 - Browser Closed
+2023-01-18 22:40:14 INFO  TestBase:24 - Initiate Browser
+2023-01-18 22:40:20 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 22:40:20 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 22:40:20 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 22:40:20 INFO  TestBase:31 - Browser Initiated
+2023-01-18 22:40:20 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 22:40:32 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:40:32 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 22:40:52 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:40:52 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 22:41:02 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:41:02 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 22:41:13 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:41:14 INFO  TestBase:51 - Closing Browser
+2023-01-18 22:41:17 INFO  TestBase:53 - Browser Closed
+2023-01-18 22:50:33 INFO  TestBase:24 - Initiate Browser
+2023-01-18 22:50:39 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 22:50:39 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 22:50:39 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 22:50:39 INFO  TestBase:31 - Browser Initiated
+2023-01-18 22:50:39 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 22:50:50 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:50:50 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 22:51:00 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:51:00 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 22:51:11 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 22:51:11 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 22:51:18 INFO  TestBase:51 - Closing Browser
+2023-01-18 22:51:21 INFO  TestBase:53 - Browser Closed
+2023-01-18 23:12:05 INFO  TestBase:24 - Initiate Browser
+2023-01-18 23:12:12 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 23:12:12 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 23:12:12 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 23:12:12 INFO  TestBase:31 - Browser Initiated
+2023-01-18 23:12:12 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 23:12:23 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:12:23 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 23:12:28 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:12:28 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 23:12:39 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:12:39 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 23:12:50 INFO  TestBase:24 - Initiate Browser
+2023-01-18 23:12:58 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 23:12:58 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 23:12:58 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 23:12:58 INFO  TestBase:31 - Browser Initiated
+2023-01-18 23:12:58 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 23:13:10 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:13:10 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 23:13:30 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:13:30 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 23:13:41 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:13:41 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 23:19:28 INFO  TestBase:24 - Initiate Browser
+2023-01-18 23:19:34 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-18 23:19:34 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-18 23:19:34 INFO  PageBase:81 -  Os Type :windows
+2023-01-18 23:19:34 INFO  TestBase:31 - Browser Initiated
+2023-01-18 23:19:34 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-18 23:19:47 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:19:47 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-18 23:20:07 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:20:07 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-18 23:20:18 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:20:18 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-18 23:20:28 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-18 23:20:29 INFO  TestBase:51 - Closing Browser
+2023-01-18 23:20:32 INFO  TestBase:53 - Browser Closed
+2023-01-21 16:21:21 INFO  TestBase:24 - Initiate Browser
+2023-01-21 16:21:30 INFO  PageBase:79 -  WebsiteURL:https://www.amazon.com/
+2023-01-21 16:21:30 INFO  PageBase:80 -  Chrome Type :chrome
+2023-01-21 16:21:30 INFO  PageBase:81 -  Os Type :windows
+2023-01-21 16:21:30 INFO  TestBase:31 - Browser Initiated
+2023-01-21 16:21:30 INFO  TestBase:43 - Test name: searchItemTest
+2023-01-21 16:21:43 INFO  TestBase:59 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-21 16:21:43 INFO  TestBase:43 - Test name: viewItemTest
+2023-01-21 16:22:02 INFO  TestBase:59 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=DashboardPageTest.viewItemTest()[pri:2, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-21 16:22:02 INFO  TestBase:43 - Test name: verifyCartTest
+2023-01-21 16:22:02 INFO  TestBase:59 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=DashboardPageTest.verifyCartTest()[pri:3, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-21 16:22:02 INFO  TestBase:43 - Test name: clearCartTest
+2023-01-21 16:22:08 INFO  TestBase:59 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=DashboardPageTest.clearCartTest()[pri:4, instance:com.test.DashboardPageTest@43301423] output={null}]
+2023-01-21 16:22:09 INFO  TestBase:51 - Closing Browser
+2023-01-21 16:22:12 INFO  TestBase:53 - Browser Closed

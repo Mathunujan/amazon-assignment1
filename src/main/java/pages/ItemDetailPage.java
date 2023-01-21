@@ -4,15 +4,16 @@ import controllers.FunctionHelper;
 import controllers.PageBase;
 import org.openqa.selenium.By;
 
-public class ItemdetailPage extends PageBase {
+public class ItemDetailPage extends PageBase {
     private static String linkText="";
     private static String language="";
+    private static String replaceVar="";
 
     private static int itemQtyDisplay;
     private static int itemQtySelect;
     private static double itemPrice;
     private static FunctionHelper functionHelper= new FunctionHelper();
-    private static By itemPriceLabel =By.xpath("//*[@data-csa-c-content-id=\"corePrice\"]");
+    private static By itemPriceLabel =By.id("price");
     private static By allItemDetails2=By.xpath("//*[@id='centerCol']");
     private static By productTitle=By.id("productTitle");
     private static By qtyDropDown=By.id("quantity");
@@ -20,11 +21,6 @@ public class ItemdetailPage extends PageBase {
     private static By addToCartButton=By.id("add-to-cart-button");
 
     private static By goToCartButton=By.xpath("//*[@data-csa-c-content-id='sw-gtc_CONTENT']");
-
-
-
-
-
 
 
     public static boolean isProductListPageDisplayed() {

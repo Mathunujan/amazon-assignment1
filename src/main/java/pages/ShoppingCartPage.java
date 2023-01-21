@@ -30,9 +30,9 @@ public class ShoppingCartPage extends PageBase {
         return false;
     }
         public static boolean isItmQtyMatchAsItemDetailsPage() throws Exception {
-        System.out.println("Item Details QTY>>>> "+ItemdetailPage.getItemQtyDisplay());
+        System.out.println("Item Details QTY>>>> "+ ItemDetailPage.getItemQtyDisplay());
             System.out.println("ShoppingCart QTY>>>> "+getItemQty());
-            return ItemdetailPage.getItemQtyDisplay()==getItemQty();
+            return ItemDetailPage.getItemQtyDisplay()==getItemQty();
     }
     public static void setItemDetails() throws Exception {
         System.out.println("Shopping Cart-Item Name>>>>>>>>>>>>"+getDriver().findElement(itemLink).getText());
@@ -52,7 +52,7 @@ public class ShoppingCartPage extends PageBase {
             return itemTotal;
     }
     public static boolean isItmTotalMatchAsItemDetailsPage() throws Exception {
-        double itemDetailsTotal=ItemdetailPage.getItemPrice()*ItemdetailPage.getItemQtyDisplay();
+        double itemDetailsTotal= ItemDetailPage.getItemPrice()* ItemDetailPage.getItemQtyDisplay();
         double CartDetailsTotal=getItemSubTotal();
         System.out.println("#Item Detailsotal: "+itemDetailsTotal+",  #CartDetailsTotal: "+CartDetailsTotal);
         return itemDetailsTotal==CartDetailsTotal;
