@@ -20,18 +20,34 @@ import utils.configloader.JsonUtils;
 
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.HashMap;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 // PageBase.java Class Created by mathunujan on 31/03/2020
 
 
 public class PageBase {
-    public SoftAssert softAssert;
-
     private static final Logger LOGGER = Logger.getLogger(PageBase.class);
+    public SoftAssert softAssert;
+    public Properties dataProp;
+
+    public PageBase(){
+        dataProp =new Properties();
+        File dataPropFile= new File(System.getProperty("user.dir")+"\\src\\main\\resources\\testdata\\testdata.properties");
+        try {
+            FileInputStream dataF= new FileInputStream(dataPropFile);
+            dataProp.load(dataF);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     private static WebDriver driver;
 
     private static String baseUrl;
@@ -45,14 +61,30 @@ public class PageBase {
     }
 
     private static String webDriverLocation = "src"+ File.separator+"main"+File.separator+"resources"+File.separator+"drivers"+File.separator;
-    protected static String osType = System.getProperty("os.type", Constants.WINDOWS);
-    protected static String driverType = System.getProperty("browser.type", Constants.CHROME);
+    protected static String osType;
+
+    static {
+        try {
+            osType = System.getProperty("os.type", JsonUtils.getValue("OSType"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    protected static String driverType;
+
+    static {
+        try {
+            driverType = System.getProperty("browser.type", JsonUtils.getValue("browserType"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     /**
      * Initialize webdriver, set driver path and maximize chrome browser window
      */
     public static void initiateDriver() throws MalformedURLException {
-        staticWait(1);
+        FunctionHelper.staticWait(1);
         switch (driverType) {
             case Constants.CHROME:
                 if(osType.equals(Constants.UBUNTU))
@@ -82,7 +114,7 @@ public class PageBase {
 
     }
 
-    /*
+    /**
      * Get web driver instance
      */
     public static WebDriver getDriver() {
@@ -94,71 +126,11 @@ public class PageBase {
      */
     public static void closeDriver() {
         getDriver().quit();
-        staticWait(1);
+       FunctionHelper.staticWait(1);
     }
 
-    /**
-     * Refresh web driver instances
-     */
-    public static void refreshDriver() {
-        getDriver().navigate().refresh();
-    }
 
-    /**
-     * Navigate Back
-     */
-    public static void navigateBack() {
-        getDriver().navigate().back();
-    }
 
-    /**
-     * GetCurrent Window Details
-     */
-    public static String getCurrentWindow() {
-        return getDriver().getWindowHandle();
-    }
-
-    /**
-     * Navigate to Window By Title
-     * @param windowName
-     */
-    public static void navigateToWindow(String windowName) {
-        getDriver().switchTo().window(windowName);
-    }
-
-    /**
-     * Static Wait
-     */
-    public static void staticWait(int seconds) {
-        try {
-            Thread.sleep(seconds*1000L);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
-    /**
-     * Implicit Wait
-     */
-    public static void implicitWait(int seconds) {
-        getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
-    }
-
-    /**
-     * Explicit Wait Clickable
-     */
-    public static void waiTillClickable(By element , int seconds) {
-        WebDriverWait wait = new WebDriverWait(getDriver(), seconds);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
-    }
-
-    /**
-     * Explicit Wait Visible
-     */
-    public static void waiTillVisible(By element ,int seconds) {
-        WebDriverWait wait = new WebDriverWait(getDriver(), 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-    }
 // get screenshort
     public static String getScreenshot() {
         File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);

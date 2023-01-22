@@ -1,18 +1,19 @@
 package steps;
 
 
+import controllers.PageBase;
 import org.testng.asserts.SoftAssert;
 import pages.ProductListPage;
 
 public class ProductListPageSteps {
-    public static void FilterStep() throws Exception {
+    ProductListPage productListPage=new ProductListPage();
+    public void FilterStep() throws Exception {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(ProductListPage.isProductListPageDisplayed(),"The page is not display here ") ;
-        ProductListPage.selectFilterByRating("4 Stars & Up");
-        ProductListPage.selectFilterByLang("English");
+        productListPage.selectFilterByRating(productListPage.dataProp.getProperty("ratingFilterSelect"));
+        productListPage.selectFilterByLang(productListPage.dataProp.getProperty("languageFilterSelect"));
         softAssert.assertTrue(ProductListPage.isCheckBoxSelected(),"Language not selected");
-        ProductListPage.setItemDetails("2");
-        softAssert.assertAll();
+        productListPage.setItemDetails(productListPage.dataProp.getProperty("itemSelect"));
     }
 
 }

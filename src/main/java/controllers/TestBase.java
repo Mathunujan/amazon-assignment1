@@ -5,11 +5,16 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
+import java.util.Properties;
 
 public class TestBase {
-    public SoftAssert softAssert;
+        public SoftAssert softAssert;
 
     public static final Logger LOGGER = Logger.getLogger(TestBase.class);
 
@@ -27,7 +32,7 @@ public class TestBase {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        PageBase.implicitWait(10);
+        FunctionHelper.implicitWait(10);
         LOGGER.info("Browser Initiated");
 
 

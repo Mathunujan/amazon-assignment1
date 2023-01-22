@@ -19,6 +19,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 import static controllers.PageBase.getDriver;
@@ -26,35 +27,36 @@ import static controllers.PageBase.getDriver;
 public class FunctionHelper extends Constants {
 
     private static final Logger LOGGER = Logger.getLogger(FunctionHelper.class);
-
+    /*
+     * Refresh web driver instances
+     */
+    public static void refreshDriver() {
+        getDriver().navigate().refresh();
+    }
+    /*
+     * Static Wait
+     */
+    public static void staticWait(int seconds) {
+        try {
+            Thread.sleep(seconds*1000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    /*
+     * Implicit Wait
+     */
+    public static void implicitWait(int seconds) {
+        getDriver().manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+    }
     /* Dropdown selection */
     public void dropDownSelectByText(WebElement element, String text) throws Exception {
-        Select objSelect =new Select(element);
-        objSelect.selectByVisibleText(text);
+        se =new Select(element);
+        se.selectByVisibleText(text);
     }
     public void partialLinkText(WebDriver driver, String text) throws Exception {
         driver.findElement(By.partialLinkText(text));
     }
-
-//    public String getlink(WebDriver driver, String tag,String uniqueText ) throws Exception {
-//       // ArrayList<String> links = new ArrayList<String>();
-//int count=0;
-//        List<WebElement> allLinks=driver.findElements(By.xpath(tag));
-//         for (int i=0; i>allLinks.size();i++){
-//
-//         }
-//
-//        for (WebElement link:allLinks){
-//            System.out.println("Link ABC"+link.getAttribute("href"));
-//
-//        if (link.getAttribute("href").endsWith(uniqueText)){
-//            return link.getText();
-//        }
-//        }
-//        System.out.println();
-//        return null;
-//    }
-
 
     /* To Press ENTER Key using Robot */
     public void hitEnter() throws Exception {
@@ -554,8 +556,30 @@ public class FunctionHelper extends Constants {
         return email_username.getAttribute("validationMessage");
     }
 
-
+    /*
+     * Navigate Back
+     */
+    public static void navigateBack() {
+        getDriver().navigate().back();
     }
+
+    /*
+     * GetCurrent Window Details
+     */
+    public static String getCurrentWindow() {
+        return getDriver().getWindowHandle();
+    }
+
+    /*
+     * Navigate to Window By Title
+     */
+    public static void navigateToWindow(String windowName) {
+        getDriver().switchTo().window(windowName);
+    }
+
+
+
+}
 
 
 

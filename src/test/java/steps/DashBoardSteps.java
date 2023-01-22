@@ -15,7 +15,7 @@ public class DashBoardSteps {
         Dashboard.SelectSearchCategory("Books");
         Dashboard.searchTextBox("Automation");
         Dashboard.clickSearchIcon();
-        Dashboard.staticWait(2);
+        FunctionHelper.staticWait(2);
 
     }
 

@@ -2,12 +2,14 @@ package pages;
 
 import controllers.FunctionHelper;
 import controllers.PageBase;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import utils.Constants;
 
 import java.util.ArrayList;
 
 public class Dashboard extends PageBase {
+    private static final Logger LOGGER = Logger.getLogger(Dashboard.class);
     static String linkText="";
     private static FunctionHelper functionHelper= new FunctionHelper();
     private static By amazonLogo=By.id("nav-logo-sprites");

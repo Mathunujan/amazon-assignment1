@@ -32,13 +32,6 @@
     </build>
 
     <dependencies>
-
-        <!--online TestResult Report-->
-        <dependency>
-            <groupId>com.tesults</groupId>
-            <artifactId>tesults</artifactId>
-            <version>1.0.1</version>
-        </dependency>
         <!--Selenium Version -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -78,8 +71,5 @@
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
         </dependency>
-    <!--     Xl Data read    Apachi poi-->
-
-
     </dependencies>
 </project>

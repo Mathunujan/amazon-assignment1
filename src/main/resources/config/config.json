@@ -1,7 +1,8 @@
 {
 
   "avd_launch_timeout": 180000,
-  "url": "https://www.amazon.com/"
-
+  "url": "https://www.amazon.com/",
+  "browserType": "chrome",
+  "OSType": "windows"
 
 }

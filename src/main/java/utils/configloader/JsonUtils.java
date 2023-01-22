@@ -22,16 +22,6 @@ public final class JsonUtils {
             return JsonPath.read(new File(Constants.getConfigJsonPath()), key);
 
     }
-
-    static void readJson(String jsonPath) throws IOException {
-
-            map = new ObjectMapper().readValue(new File(jsonPath),
-                    new TypeReference<HashMap<String, String>>() {
-                    });
-
-    }
-
-
     }
 
 
