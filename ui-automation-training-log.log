@@ -4063,3 +4063,99 @@
 2023-01-22 22:57:28 INFO  TestBase:64 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=ShoppingCartPageTest.clearCartTest()[pri:5, instance:com.test.ShoppingCartPageTest@6193932a] output={null}]
 2023-01-22 22:57:29 INFO  TestBase:56 - Closing Browser
 2023-01-22 22:57:32 INFO  TestBase:58 - Browser Closed
+2023-01-22 23:07:21 INFO  TestBase:29 - Initiate Browser
+2023-01-22 23:07:28 INFO  PageBase:111 -  WebsiteURL:https://www.amazon.com/
+2023-01-22 23:07:28 INFO  PageBase:112 -  Chrome Type :chrome
+2023-01-22 23:07:28 INFO  PageBase:113 -  Os Type :windows
+2023-01-22 23:07:28 INFO  TestBase:36 - Browser Initiated
+2023-01-22 23:07:28 INFO  TestBase:48 - Test name: searchItemTest
+2023-01-22 23:07:30 INFO  TestBase:48 - Test name: viewItemTest
+2023-01-22 23:07:36 INFO  TestBase:29 - Initiate Browser
+2023-01-22 23:07:43 INFO  PageBase:111 -  WebsiteURL:https://www.amazon.com/
+2023-01-22 23:07:43 INFO  PageBase:112 -  Chrome Type :chrome
+2023-01-22 23:07:43 INFO  PageBase:113 -  Os Type :windows
+2023-01-22 23:07:43 INFO  TestBase:36 - Browser Initiated
+2023-01-22 23:07:43 INFO  TestBase:48 - Test name: searchItemTest
+2023-01-22 23:07:56 INFO  TestBase:64 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@769e7ee8] output={null}]
+2023-01-22 23:07:56 INFO  TestBase:48 - Test name: viewItemTest
+2023-01-22 23:08:07 INFO  ProductListPage:73 - Getting Product List Item Price:49.99
+2023-01-22 23:08:07 INFO  ItemDetailPage:50 - Getting ItemDetails page-Item Price:49.99
+2023-01-22 23:08:07 INFO  ProductListPage:73 - Getting Product List Item Price:49.99
+2023-01-22 23:08:07 INFO  ItemDetailPage:50 - Getting ItemDetails page-Item Price:49.99
+2023-01-22 23:08:07 INFO  ItemDetailPage:40 - Getting ItemDetails page-Item Name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:08:07 INFO  ProductListPage:81 - Getting Product List Item Name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:08:07 INFO  TestBase:64 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=ProductListPageTest.viewItemTest()[pri:2, instance:com.test.ProductListPageTest@5276e6b0] output={null}]
+2023-01-22 23:08:07 INFO  TestBase:48 - Test name: addToCartTest
+2023-01-22 23:08:12 INFO  TestBase:64 - Executed test case name:addToCartTest Execution Results : [TestResult name=addToCartTest status=SUCCESS method=ProductListPageTest.addToCartTest()[pri:3, instance:com.test.ProductListPageTest@5276e6b0] output={null}]
+2023-01-22 23:08:12 INFO  TestBase:48 - Test name: verifyCartTest
+2023-01-22 23:08:15 INFO  ProductListPage:81 - Getting Product List Item Name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:08:15 INFO  ItemDetailPage:44 - Getting shopping cart page Item name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:08:15 INFO  ItemDetailPage:58 - Getting ItemDetails page-Quantity Display:3
+2023-01-22 23:08:15 INFO  ItemDetailPage:49 - Getting shopping cart page Item quantity:3
+2023-01-22 23:08:15 INFO  ItemDetailPage:50 - Getting ItemDetails page-Item Price:49.99
+2023-01-22 23:08:15 INFO  ItemDetailPage:58 - Getting ItemDetails page-Quantity Display:3
+2023-01-22 23:08:15 INFO  ItemDetailPage:53 - Getting shopping cart page Item subtotal:149.97
+2023-01-22 23:08:15 INFO  TestBase:64 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=ShoppingCartPageTest.verifyCartTest()[pri:4, instance:com.test.ShoppingCartPageTest@71b1176b] output={null}]
+2023-01-22 23:08:15 INFO  TestBase:48 - Test name: clearCartTest
+2023-01-22 23:08:21 INFO  ItemDetailPage:69 - Sub total labelText after clear the cart: $0.00
+2023-01-22 23:08:21 INFO  TestBase:64 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=ShoppingCartPageTest.clearCartTest()[pri:5, instance:com.test.ShoppingCartPageTest@71b1176b] output={null}]
+2023-01-22 23:08:21 INFO  TestBase:56 - Closing Browser
+2023-01-22 23:08:25 INFO  TestBase:58 - Browser Closed
+2023-01-22 23:08:40 INFO  TestBase:29 - Initiate Browser
+2023-01-22 23:08:46 INFO  PageBase:111 -  WebsiteURL:https://www.amazon.com/
+2023-01-22 23:08:46 INFO  PageBase:112 -  Chrome Type :chrome
+2023-01-22 23:08:46 INFO  PageBase:113 -  Os Type :windows
+2023-01-22 23:08:46 INFO  TestBase:36 - Browser Initiated
+2023-01-22 23:08:46 INFO  TestBase:48 - Test name: searchItemTest
+2023-01-22 23:08:57 INFO  TestBase:64 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@5276e6b0] output={null}]
+2023-01-22 23:08:57 INFO  TestBase:48 - Test name: viewItemTest
+2023-01-22 23:09:07 INFO  ProductListPage:73 - Getting Product List Item Price:49.99
+2023-01-22 23:09:07 INFO  ItemDetailPage:50 - Getting ItemDetails page-Item Price:49.99
+2023-01-22 23:09:07 INFO  ProductListPage:73 - Getting Product List Item Price:49.99
+2023-01-22 23:09:07 INFO  ItemDetailPage:50 - Getting ItemDetails page-Item Price:49.99
+2023-01-22 23:09:07 INFO  ItemDetailPage:40 - Getting ItemDetails page-Item Name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:09:07 INFO  ProductListPage:81 - Getting Product List Item Name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:09:08 INFO  TestBase:64 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=SUCCESS method=ProductListPageTest.viewItemTest()[pri:2, instance:com.test.ProductListPageTest@71b1176b] output={null}]
+2023-01-22 23:09:08 INFO  TestBase:48 - Test name: addToCartTest
+2023-01-22 23:09:09 INFO  TestBase:64 - Executed test case name:addToCartTest Execution Results : [TestResult name=addToCartTest status=SUCCESS method=ProductListPageTest.addToCartTest()[pri:3, instance:com.test.ProductListPageTest@71b1176b] output={null}]
+2023-01-22 23:09:09 INFO  TestBase:48 - Test name: verifyCartTest
+2023-01-22 23:09:14 INFO  ProductListPage:81 - Getting Product List Item Name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:09:14 INFO  ItemDetailPage:44 - Getting shopping cart page Item name:Mastering Python Networking: Utilize Python packages and frameworks for network automation, monitoring, cloud, and management, 4th Edition
+2023-01-22 23:09:14 INFO  ItemDetailPage:58 - Getting ItemDetails page-Quantity Display:2
+2023-01-22 23:09:14 INFO  ItemDetailPage:49 - Getting shopping cart page Item quantity:2
+2023-01-22 23:09:14 INFO  ItemDetailPage:50 - Getting ItemDetails page-Item Price:49.99
+2023-01-22 23:09:14 INFO  ItemDetailPage:58 - Getting ItemDetails page-Quantity Display:2
+2023-01-22 23:09:14 INFO  ItemDetailPage:53 - Getting shopping cart page Item subtotal:99.98
+2023-01-22 23:09:14 INFO  TestBase:64 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=SUCCESS method=ShoppingCartPageTest.verifyCartTest()[pri:4, instance:com.test.ShoppingCartPageTest@6193932a] output={null}]
+2023-01-22 23:09:14 INFO  TestBase:48 - Test name: clearCartTest
+2023-01-22 23:09:19 INFO  ItemDetailPage:69 - Sub total labelText after clear the cart: $0.00
+2023-01-22 23:09:19 INFO  TestBase:64 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=SUCCESS method=ShoppingCartPageTest.clearCartTest()[pri:5, instance:com.test.ShoppingCartPageTest@6193932a] output={null}]
+2023-01-22 23:09:20 INFO  TestBase:56 - Closing Browser
+2023-01-22 23:09:24 INFO  TestBase:58 - Browser Closed
+2023-08-12 17:12:42 INFO  TestBase:29 - Initiate Browser
+2023-08-12 17:12:50 INFO  PageBase:111 -  WebsiteURL:https://www.amazon.com/
+2023-08-12 17:12:50 INFO  PageBase:112 -  Chrome Type :chrome
+2023-08-12 17:12:50 INFO  PageBase:113 -  Os Type :windows
+2023-08-12 17:12:50 INFO  TestBase:36 - Browser Initiated
+2023-08-12 17:12:50 INFO  TestBase:48 - Test name: searchItemTest
+2023-08-12 17:13:01 INFO  TestBase:64 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=SUCCESS method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@1188e820] output={null}]
+2023-08-12 17:13:01 INFO  TestBase:68 - Stop Testcase
+2023-08-12 17:13:01 INFO  TestBase:56 - Closing Browser
+2023-08-12 17:13:04 INFO  TestBase:58 - Browser Closed
+2023-08-12 17:14:53 INFO  TestBase:29 - Initiate Browser
+2023-08-12 17:14:59 INFO  PageBase:111 -  WebsiteURL:https://www.amazon.com/
+2023-08-12 17:14:59 INFO  PageBase:112 -  Chrome Type :chrome
+2023-08-12 17:14:59 INFO  PageBase:113 -  Os Type :windows
+2023-08-12 17:14:59 INFO  TestBase:36 - Browser Initiated
+2023-08-12 17:14:59 INFO  TestBase:48 - Test name: searchItemTest
+2023-08-12 17:15:27 INFO  TestBase:64 - Executed test case name:searchItemTest Execution Results : [TestResult name=searchItemTest status=FAILURE method=DashboardPageTest.searchItemTest()[pri:1, instance:com.test.DashboardPageTest@5276e6b0] output={null}]
+2023-08-12 17:15:27 INFO  TestBase:48 - Test name: viewItemTest
+2023-08-12 17:15:43 INFO  TestBase:64 - Executed test case name:viewItemTest Execution Results : [TestResult name=viewItemTest status=FAILURE method=ProductListPageTest.viewItemTest()[pri:2, instance:com.test.ProductListPageTest@71b1176b] output={null}]
+2023-08-12 17:15:43 INFO  TestBase:48 - Test name: addToCartTest
+2023-08-12 17:15:53 INFO  TestBase:64 - Executed test case name:addToCartTest Execution Results : [TestResult name=addToCartTest status=FAILURE method=ProductListPageTest.addToCartTest()[pri:3, instance:com.test.ProductListPageTest@71b1176b] output={null}]
+2023-08-12 17:15:53 INFO  TestBase:48 - Test name: verifyCartTest
+2023-08-12 17:16:03 INFO  TestBase:64 - Executed test case name:verifyCartTest Execution Results : [TestResult name=verifyCartTest status=FAILURE method=ShoppingCartPageTest.verifyCartTest()[pri:4, instance:com.test.ShoppingCartPageTest@6193932a] output={null}]
+2023-08-12 17:16:03 INFO  TestBase:48 - Test name: clearCartTest
+2023-08-12 17:16:13 INFO  TestBase:64 - Executed test case name:clearCartTest Execution Results : [TestResult name=clearCartTest status=FAILURE method=ShoppingCartPageTest.clearCartTest()[pri:5, instance:com.test.ShoppingCartPageTest@6193932a] output={null}]
+2023-08-12 17:16:14 INFO  TestBase:56 - Closing Browser
+2023-08-12 17:16:17 INFO  TestBase:58 - Browser Closed
